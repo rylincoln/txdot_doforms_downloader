@@ -2,10 +2,6 @@ import csv,urllib,os,arcpy
 inputCSV = arcpy.GetParameterAsText(0)
 outputFolder = arcpy.GetParameterAsText(1)
 shpfile = arcpy.GetParameterAsText(2)
-# inputCSV = "../TXDOT_MS4_AOTS_FORM_v2017_1Copy"
-# outputFolder = "../Deliverable"
-# shpfile = inputCSV.split('\\')
-# shpfile = os.path.splitext(shpfile[-1])[0]
 imgFd = 'Images'
 shpFd = 'Shapefile'
 latlng = ['POINT Latitude','POINT Longitude']
